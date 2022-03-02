@@ -49,7 +49,9 @@ $(document).ready(function () {
         var flag = 0;
         for (var m = 0; m < addToCarts.length; m++) {
           if (addToCarts[m].id == 101) {
-            addToCarts[m].count++;
+            var quant = addToCarts[m].count++;
+            var pr = addToCarts[m].price * addToCarts[m].count;
+            addToCarts[m].totalprice = pr;
             flag = 1;
             break;
           }
@@ -68,7 +70,9 @@ $(document).ready(function () {
         var flag = 0;
         for (var m = 0; m < addToCarts.length; m++) {
           if (addToCarts[m].id == 102) {
-            addToCarts[m].count++;
+            var quant = addToCarts[m].count++;
+            var pr = addToCarts[m].price * addToCarts[m].count;
+            addToCarts[m].totalprice = pr;
             flag = 1;
             break;
           }
@@ -87,7 +91,9 @@ $(document).ready(function () {
         var flag = 0;
         for (var m = 0; m < addToCarts.length; m++) {
           if (addToCarts[m].id == 103) {
-            addToCarts[m].count++;
+            var quant = addToCarts[m].count++;
+            var pr = addToCarts[m].price * addToCarts[m].count;
+            addToCarts[m].totalprice = pr;
             flag = 1;
             break;
           }
@@ -107,7 +113,9 @@ $(document).ready(function () {
         var flag = 0;
         for (var m = 0; m < addToCarts.length; m++) {
           if (addToCarts[m].id == 104) {
-            addToCarts[m].count++;
+            var quant = addToCarts[m].count++;
+            var pr = addToCarts[m].price * addToCarts[m].count;
+            addToCarts[m].totalprice = pr;
             flag = 1;
             break;
           }
@@ -127,7 +135,9 @@ $(document).ready(function () {
         var flag = 0;
         for (var m = 0; m < addToCarts.length; m++) {
           if (addToCarts[m].id == 105) {
-            addToCarts[m].count++;
+            var quant = addToCarts[m].count++;
+            var pr = addToCarts[m].price * addToCarts[m].count;
+            addToCarts[m].totalprice = pr;
             flag = 1;
             break;
           }
